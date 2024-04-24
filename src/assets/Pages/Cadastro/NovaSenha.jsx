@@ -4,8 +4,8 @@ import CardNovaSenha from '../../Componentes/CardNovaSenha'
 
 function NovaSenha() { //TELA PARA REDEFINIR NOVA SENHA 
     return (
-        <div className={'flex items-center justify-center'}>
-            <img src={fundo} className={'w-full flex absolute'} alt="" />
+        <div className={'flex items-center sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen justify-center'}>
+            <img src={fundo} className={'w-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen flex absolute'} alt="" />
             <CardNovaSenha/>
         </div>
     )
