@@ -16,7 +16,7 @@ function Header({ gestor, instrutor, home, aprendiz, admin }) { //FUNÇÃO PARA 
   ${admin ? 'bg-admin' : ''}`
 
 
-  const acesso = ''
+  const acesso = 'home'
   
   switch (acesso) {
 

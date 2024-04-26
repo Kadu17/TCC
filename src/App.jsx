@@ -38,12 +38,12 @@ function App() {
   let aprendiz = false
   let gestor = false
   let admin = false
-  let home = false
+  let home = true
 
 
   return (
     <div className={'h-full'}>
-      {/* <Header instrutor={instrutor} aprendiz={aprendiz} gestor={gestor} admin={admin} home={home} /> */}
+      <Header instrutor={instrutor} aprendiz={aprendiz} gestor={gestor} admin={admin} home={home} />
 
       <BrowserRouter>
         <Routes>
@@ -87,7 +87,7 @@ function App() {
 
      
 
-      {/* <Footer ciano={instrutor} verde={gestor} azul={admin} azul_aprendiz={aprendiz} /> */}
+      <Footer ciano={instrutor} verde={gestor} azul={admin} azul_aprendiz={aprendiz} />
     </div>
 
 

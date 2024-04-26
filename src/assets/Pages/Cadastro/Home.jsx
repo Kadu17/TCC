@@ -44,15 +44,16 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
 
             <div className={'flex justify-center'}>
                 <div className={`w-11/12 h-48  bg-rosa rounded-r-full mt-20`}>
-                    <div className={'flex items-center justify-around p-4'}>
+                    <div className={'flex items-center justify-around p-4 '}>
                         <div className={''}>
-                            <p className={'text-gradiente1 font-semibold'}>Auto Avaliação</p>
-                        </div>
+                            <div className={'sm:text-center'}>
+                                <p className={'text-gradiente1 font-semibold '}>Auto Avaliação</p>
+                            </div>
 
-                        <div className={''}>
-                            <p className={'text-base'}>Através de uma página é possível realizar toda a auto avaliação necessária no semestre.</p>
+                            <div className={''}>
+                                <p className={'text-base sm:p-8 sm:h-32'}>Através de uma página é possível realizar toda a auto avaliação necessária no semestre.</p>
+                            </div>
                         </div>
-
                         <div className={''}>
                             <img src={animacao2} alt="" className={'w-32'} />
                         </div>
@@ -68,10 +69,10 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
                     </div>
                     <div className={'flex items-center justify-evenly'}>
                         <div className={''}>
-                            <img src={animacao3} alt="" className={'w-32'} />
+                            <img src={animacao3} alt="" className={'w-32 sm:w-24'} />
                         </div>
                         <div className={''}>
-                            <p className={'text-base'}>Todas as notas se transformam em dados, para que seja gerado o rendimento dos aprendizes em formato de gráfico.</p>
+                            <p className={'text-base sm:w-96'}>Todas as notas se transformam em dados, para que seja gerado o rendimento dos aprendizes em formato de gráfico.</p>
                         </div>
                     </div>
                 </div>
@@ -81,14 +82,16 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
             <div className={'flex justify-center'}>
                 <div className={`w-11/12 h-48  bg-rosa rounded-r-full mt-20`}>
                     <div className={'flex items-center justify-around p-4'}>
-                        <div className={''}>
-                            <p className={'text-gradiente1 font-semibold'}>Busca de dados</p>
+                        <div>
+                            <div className={'sm:items-center'}>
+                                <p className={'text-gradiente1 font-semibold sm:w-64 sm:text-center'}>Busca de dados</p>
+                            </div>
+                            <div className={''}>
+                                <p className={'text-base  sm:w-72'}>A plataforma recolhe as notas do SENAI de todos os aprendizes.</p>
+                            </div>
                         </div>
                         <div className={''}>
-                            <p className={'text-base'}>A plataforma recolhe as notas do SENAI de todos os aprendizes.</p>
-                        </div>
-                        <div className={''}>
-                            <img src={animacao4} alt="" className={'w-16'} />
+                            <img src={animacao4} alt="" className={'w-16 sm:w-14'} />
                         </div>
                     </div>
                 </div>
