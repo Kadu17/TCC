@@ -20,7 +20,7 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
                     <p className={'ml-14 text-base'}>Dessa forma, os dados ficam centralizados
                         contribuindo para o funcionamento de maneira mais rápida e fácil para todos os envolvidos.</p>
                 </div>
-                <div className={'flex justify-end mr-10'}>
+                <div className={'flex justify-end mr-10 md:p-8 '}>
                     <img src={animação1} alt="" />
                 </div>
             </div>
@@ -55,7 +55,7 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
                             </div>
                         </div>
                         <div className={''}>
-                            <img src={animacao2} alt="" className={'w-32'} />
+                            <img src={animacao2} alt="" className={'w-32 sm:w-28 2xl:w-32'} />
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
                     </div>
                     <div className={'flex items-center justify-evenly'}>
                         <div className={''}>
-                            <img src={animacao3} alt="" className={'w-32 sm:w-24'} />
+                            <img src={animacao3} alt="" className={'w-32 sm:w-24 2xl:w-32'} />
                         </div>
                         <div className={''}>
                             <p className={'text-base sm:w-96'}>Todas as notas se transformam em dados, para que seja gerado o rendimento dos aprendizes em formato de gráfico.</p>
@@ -81,17 +81,17 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
 
             <div className={'flex justify-center'}>
                 <div className={`w-11/12 h-48  bg-rosa rounded-r-full mt-20`}>
-                    <div className={'flex items-center justify-around p-4'}>
+                    <div className={'flex items-center justify-around p-4 sm:p-8'}>
                         <div>
                             <div className={'sm:items-center'}>
-                                <p className={'text-gradiente1 font-semibold sm:w-64 sm:text-center'}>Busca de dados</p>
+                                <p className={'text-gradiente1 font-semibold sm:p-5'}>Busca de dados</p>
                             </div>
                             <div className={''}>
-                                <p className={'text-base  sm:w-72'}>A plataforma recolhe as notas do SENAI de todos os aprendizes.</p>
+                                <p className={'text-base'}>A plataforma recolhe as notas do SENAI de todos os aprendizes.</p>
                             </div>
                         </div>
                         <div className={''}>
-                            <img src={animacao4} alt="" className={'w-16 sm:w-14'} />
+                            <img src={animacao4} alt="" className={'w-16 sm:w-12 2xl:w-16'} />
                         </div>
                     </div>
                 </div>
@@ -109,8 +109,8 @@ function Home() {  //TELA INICIAL DA PLATAFORMA
                             <img src={front} alt="" className={'w-28'} />
                             <p className={'text-blue-800 font-semibold '}>FrontEnd</p>
                         </div>
-                        <div className={'flex items-center'}>
-                            <p className={'text-base'}>Utilizamos React JS junto com o Vite para a construção da platarfoma e conexão com as APIs.</p>
+                        <div className={'flex items-center 2xl:w-8/12 sm:ml-16 '}>
+                            <p className={'text-base sm:text-center '}>Utilizamos React JS junto com o Vite para a construção da platarfoma e conexão com as APIs.</p>
                         </div>
 
                     </div>
